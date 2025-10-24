@@ -1,31 +1,45 @@
 # Project Context
 
 ## Purpose
-[Describe your project's purpose and goals]
+A simple command-line ToDo application for personal task management with basic add, list, and done functionality.
 
 ## Tech Stack
-- [List your primary technologies]
-- [e.g., TypeScript, React, Node.js]
+- Python 3.8+
+- JSON for data persistence
+- argparse for command-line interface
 
 ## Project Conventions
 
 ### Code Style
-[Describe your code style preferences, formatting rules, and naming conventions]
+- Use Python PEP 8 style guidelines
+- Use descriptive variable and function names
+- Include docstrings for functions and classes
+- Use type hints where appropriate
 
 ### Architecture Patterns
-[Document your architectural decisions and patterns]
+- Simple command-line application structure
+- Separation of concerns: data model, storage, commands, CLI
+- File-based persistence using JSON format
 
 ### Testing Strategy
-[Explain your testing approach and requirements]
+- Manual testing of all commands
+- Test error handling scenarios
+- Verify data persistence across sessions
 
 ### Git Workflow
-[Describe your branching strategy and commit conventions]
+- Use descriptive commit messages
+- Create feature branches for major changes
+- Keep commits focused and atomic
 
 ## Domain Context
-[Add domain-specific knowledge that AI assistants need to understand]
+This is a personal productivity tool for managing daily tasks. The application should be simple, reliable, and easy to use from the command line.
 
 ## Important Constraints
-[List any technical, business, or regulatory constraints]
+- Must work on Windows, macOS, and Linux
+- Should not require external dependencies beyond Python standard library
+- Data should be stored locally in a simple format
+- Application should be lightweight and fast
 
 ## External Dependencies
-[Document key external services, APIs, or systems]
+- Python standard library only
+- No external packages required
